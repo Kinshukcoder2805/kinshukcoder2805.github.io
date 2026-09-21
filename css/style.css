@@ -150,14 +150,13 @@ header {
 }
 
 .hero h1 {
-    font-size: clamp(45px, 7vw, 78px);
-
-    line-height: 1.05;
-
+    font-size: clamp(24px, 5.5vw, 72px);
+    line-height: 1.1;
     margin-bottom: 8px;
-
-    letter-spacing: -3px;
+    letter-spacing: -2px;
+    white-space: nowrap;
 }
+
 
 .hero h2 {
     color: var(--blue);
