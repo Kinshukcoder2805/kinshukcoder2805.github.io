@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Orlandy Vilorio | Cloud & Infrastructure</title>
-
     <meta
         name="description"
         content="Portfolio de Orlandy Vilorio - Cloud, Infrastructure, Linux, Networking and Automation."
     >
-
+    <!-- Enlace a FontAwesome para los íconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -32,36 +31,50 @@
     <main>
 
         <!-- HERO -->
-        <section class="hero">
+        <section class="hero-container">
+            <div class="hero">
+                <div class="hero-text">
+                    <div class="terminal-label">
+                        <span class="dot"></span>
+                        Available for opportunities
+                    </div>
 
-            <div class="terminal-label">
-                <span class="dot"></span>
-                Available for opportunities
+                    <p class="hello">Hello, I'm</p>
+
+                    <h1 class="name">Orlandy Y Vilorio Alvarez</h1>
+
+                    <h2>Cloud & Infrastructure</h2>
+
+                    <p class="hero-description">
+                        Licenciado en Informática enfocado en Cloud Computing,
+                        Infrastructure, Networking, Linux y Automation.
+                    </p>
+
+                    <!-- Enlaces de Redes Sociales en el Hero -->
+                    <div class="hero-socials">
+                        <a href="https://github.com/orlandyvalvarez" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/tu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:tu-correo@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#projects" class="btn primary">
+                            View Projects
+                        </a>
+
+                        <a href="https://github.com/orlandyvalvarez"
+                           target="_blank"
+                           class="btn secondary">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FOTO DE PERFIL -->
+                <div class="hero-image-container">
+                    <img src="foto.jpg" alt="Orlandy Vilorio" class="profile-img">
+                </div>
             </div>
-
-            <p class="hello">Hello, I'm</p>
-
-           <h1 class="name">Orlandy Y Vilorio Alvarez</h1>
-
-            <h2>Cloud & Infrastructure</h2>
-
-            <p class="hero-description">
-                Licenciado en Informática enfocado en Cloud Computing,
-                Infrastructure, Networking, Linux y Automation.
-            </p>
-
-            <div class="buttons">
-                <a href="#projects" class="btn primary">
-                    View Projects
-                </a>
-
-                <a href="https://github.com/orlandyvalvarez"
-                   target="_blank"
-                   class="btn secondary">
-                    GitHub
-                </a>
-            </div>
-
         </section>
 
 
@@ -236,16 +249,15 @@
             <h2>Let's connect</h2>
 
             <p>
-                Puedes encontrar mis proyectos y código en GitHub.
+                Puedes encontrar mis proyectos y código en GitHub o contactarme a través de mis redes.
             </p>
 
-            <a
-                href="https://github.com/orlandyvalvarez"
-                target="_blank"
-                class="btn primary"
-            >
-                github.com/orlandyvalvarez
-            </a>
+            <!-- Redes Sociales en Contacto -->
+            <div class="contact-socials">
+                <a href="https://github.com/orlandyvalvarez" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/tu-usuario" target="_blank" class="btn secondary"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="mailto:tu-correo@example.com" class="btn secondary"><i class="fas fa-envelope"></i> Email</a>
+            </div>
 
         </section>
 
@@ -266,3 +278,4 @@
 
 </body>
 </html>
+
